@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
 import { AppProvider } from './context/index'
-import { TestForm } from './components/form'
+import { LoginPage } from './pages/login';
 function App() {
   return (
     <AppProvider >
       <div className="App">
-        <TestForm />
+      <LoginPage />
       </div>
     </AppProvider>
   );
